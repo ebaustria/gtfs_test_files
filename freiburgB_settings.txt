@@ -1,0 +1,66 @@
+Scenario.name = freiburgB
+Scenario.nrofHostGroups = 6
+
+
+Group1.groupID = 1_
+Group1.movementModel = TransitMapMovement
+Group1.routeFile = /Users/ericbush/Desktop/the-one/data/freiburgB/1_stops.csv
+Group1.scheduleFile = /Users/ericbush/Desktop/the-one/data/freiburgB/1_schedule.csv
+Group1.routeType = 2
+Group1.nrofHosts = 5
+Group1.okMaps = 1
+
+
+Group2.groupID = 2_
+Group2.movementModel = TransitMapMovement
+Group2.routeFile = /Users/ericbush/Desktop/the-one/data/freiburgB/2_stops.csv
+Group2.scheduleFile = /Users/ericbush/Desktop/the-one/data/freiburgB/2_schedule.csv
+Group2.routeType = 2
+Group2.nrofHosts = 5
+Group2.okMaps = 2
+
+
+Group3.groupID = 3_
+Group3.movementModel = TransitMapMovement
+Group3.routeFile = /Users/ericbush/Desktop/the-one/data/freiburgB/3_stops.csv
+Group3.scheduleFile = /Users/ericbush/Desktop/the-one/data/freiburgB/3_schedule.csv
+Group3.routeType = 2
+Group3.nrofHosts = 5
+Group3.okMaps = 3
+
+
+Group4.groupID = 4_
+Group4.movementModel = TransitMapMovement
+Group4.routeFile = /Users/ericbush/Desktop/the-one/data/freiburgB/4_stops.csv
+Group4.scheduleFile = /Users/ericbush/Desktop/the-one/data/freiburgB/4_schedule.csv
+Group4.routeType = 2
+Group4.nrofHosts = 5
+Group4.okMaps = 4
+
+
+Group5.groupID = 5_
+Group5.movementModel = TransitMapMovement
+Group5.routeFile = /Users/ericbush/Desktop/the-one/data/freiburgB/5_stops.csv
+Group5.scheduleFile = /Users/ericbush/Desktop/the-one/data/freiburgB/5_schedule.csv
+Group5.routeType = 2
+Group5.nrofHosts = 5
+Group5.okMaps = 5
+
+
+Group6.groupID = S
+Group6.movementModel = StationaryMultiPointMovement
+Group6.stationarySystemNr = 1
+Group6.pointFile = /Users/ericbush/Desktop/the-one/data/freiburgB/stations.wkt
+Group6.nrofHosts = 82
+
+
+MapBasedMovement.nrofMapFiles = 5
+MapBasedMovement.mapFile1 = /Users/ericbush/Desktop/the-one/data/freiburgB/1_nodes.wkt
+MapBasedMovement.mapFile2 = /Users/ericbush/Desktop/the-one/data/freiburgB/2_nodes.wkt
+MapBasedMovement.mapFile3 = /Users/ericbush/Desktop/the-one/data/freiburgB/3_nodes.wkt
+MapBasedMovement.mapFile4 = /Users/ericbush/Desktop/the-one/data/freiburgB/4_nodes.wkt
+MapBasedMovement.mapFile5 = /Users/ericbush/Desktop/the-one/data/freiburgB/5_nodes.wkt
+
+
+MovementModel.worldSize = 7978, 7797
+Events1.hosts = 0,106
